@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demosuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OrangeHrm(failed)">
+    <classes>
+      <class name="pack1.Xml_Reports">
+        <methods>
+          <include name="loginpage"/>
+          <include name="navigatetomyinfo"/>
+          <include name="verifymyinfo"/>
+        </methods>
+      </class> <!-- pack1.Xml_Reports -->
+    </classes>
+  </test> <!-- OrangeHrm(failed) -->
+</suite> <!-- Failed suite [Demosuite] -->
